@@ -9,6 +9,10 @@ class Urban:
         self.key = key
 
     def search(self, name):
+        """
+        :return: Info about the word that got searched
+        """
+
         url = "https://mashape-community-urban-dictionary.p.rapidapi.com/define"
         querystring = {"term": name}
 
