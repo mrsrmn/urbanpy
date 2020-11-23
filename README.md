@@ -25,7 +25,7 @@ To get your API key, go to https://rapidapi.com/community/api/urban-dictionary/e
 ```python
 import urbanpy
 
-urban = urbanpy.Urban(-your api key-)
+urban = urbanpy.Urban("-your api key-")
 result = urban.search("the thing you are gonna search")
 
 print(result.definition) #Definition of the post
