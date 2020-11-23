@@ -1,16 +1,16 @@
-# urbanpy
+# urbanpython
 
-urbanpy is an API wrapper for the Urban Dictionary JSON API
+urbanpython is an API wrapper for the Urban Dictionary JSON API
 
 ## Installation
 
 To install urbanpy, do:
 
-``pip install urbanpy``
+``pip install urbanpython``
 
 or
 
-``python -m pip install urbanpy``
+``python -m pip install urbanpython``
 
 ## Documentation
 
@@ -23,9 +23,9 @@ To get your API key, go to https://rapidapi.com/community/api/urban-dictionary/e
 ![This is your API key](example.png)
 
 ```python
-import urbanpy
+import urbanpython
 
-urban = urbanpy.Urban("-your api key-")
+urban = urbanpython.Urban("-your api key-")
 result = urban.search("the thing you are gonna search")
 
 print(result.definition) #Definition of the post
