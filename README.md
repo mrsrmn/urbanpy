@@ -20,7 +20,7 @@ This README file is the documentation
 
 To get your API key, go to https://rapidapi.com/community/api/urban-dictionary/endpoints and get your API key
 
-![This is your API key](example.png)
+![This is your API key](https://i.imgur.com/5WojesI.png)
 
 ```python
 import urbanpython
