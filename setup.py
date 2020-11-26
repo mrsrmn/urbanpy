@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="urbanpython",
-    version="1.0.2",
+    version="1.0.3",
     author="MakufonSkifto",
     license="MIT",
     description="urbanpython is an API wrapper for the Urban Dictionary JSON API",
