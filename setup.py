@@ -11,7 +11,7 @@ setuptools.setup(
     description="urbanpython is an API wrapper for the Urban Dictionary JSON API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MakufonSkifto/urbanpython",
+    url="https://github.com/MakufonSkifto/urbanpy",
     packages=setuptools.find_packages(),
     install_requires=["requests"],
     classifiers=[
